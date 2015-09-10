@@ -37,7 +37,7 @@ startButton.onclick = function (){
 		contextSec.strokeStyle = "black";
 		contextSec.stroke();
 		contextSec.closePath();
-		i+=1/60;
+		i+=0.016;
 	}
 				
 	function reDrawMinClockHands(){
@@ -48,7 +48,7 @@ startButton.onclick = function (){
 		contextMin.strokeStyle = "black";
 		contextMin.stroke();
 		contextMin.closePath();
-		k+=1/60;
+		k+=0.016;
 	}
 					
 	secIntervalID = setInterval(reDrawSecClockHands, 1000/60);
