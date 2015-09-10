@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8">
+	<link media="screen" rel="stylesheet" href="css/master.css">
+	<meta charset="utf-8">
+	<title>Stopwatch_test</title>
+</head>
+<body>
+	<div id="wrapper">
+		<div class="controls">
+			<input id="start" type="button" value="START">
+			<input id="pause" type="button" value="PAUSE">
+		</div>
+		<canvas id="canvasClock" height="200px" width="200px"></canvas>
+		<canvas id="canvasSecClockHands" height="200px" width="200px"></canvas>
+        <canvas id="canvasMinClockHands" height="200px" width="200px"></canvas>
+		<div id="elapsedTime">
+			<span>Elapsed time: </span><span id="js-elapsed-time"></span>
+		</div>
+		<script src="js/main.js"></script>
+	</div>
+</body>
+</html>
